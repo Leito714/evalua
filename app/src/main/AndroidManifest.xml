@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Evalua">
         <activity
+            android:name=".activity_prueba"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
